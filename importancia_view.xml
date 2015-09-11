@@ -12,7 +12,7 @@
                         <field name='type'>form</field>
                         <field name='arch' type='xml'>
                                 <field name="cost_method" position="after"> <!-- after: despues del campo list_price -->
-                                        <field name="importancia"/> <!-- llamamos al campo coleres con el atributo name de field -->
+                                        <field name="importancia_property"/> <!-- llamamos al campo coleres con el atributo name de field -->
                                 </field>
                         </field>
  

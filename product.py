@@ -8,6 +8,6 @@ class product_product(osv.osv):
  
     #Agregamos el campo al formulario producto o a la tabla product_product
     _columns = {
-                'importancia': fields.char('Importancia',size=5),
+				'importancia_property': fields.property( 'product_product', type='char', size=5, string="Importancia", method=True ),
         }
 product_product()
